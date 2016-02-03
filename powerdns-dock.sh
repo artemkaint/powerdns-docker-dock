@@ -11,23 +11,18 @@ do
 case $i in
     --gpgsql-host=*)
     HOST="${i#*=}"
-    shift # past argument=value
     ;;
     --gpgsql-port=*)
     PORT="${i#*=}"
-    shift # past argument=value
     ;;
     --gpgsql-dbname=*)
     DB="${i#*=}"
-    shift # past argument=value
     ;;
     --gpgsql-user=*)
     USER="${i#*=}"
-    shift # past argument=value
     ;;
     --gpgsql-password=*)
     PASSWORD="${i#*=}"
-    shift # past argument=value
     ;;
     *)
     ;;
